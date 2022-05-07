@@ -1,0 +1,28 @@
+$color-primary: blueviolet;
+$color-secondary: rgb(212, 78, 78);
+
+
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-family: 'Roboto';
+
+  .style {
+    font-size: 60px;
+    color: $color-primary;
+    text-align: center;
+  }
+
+  .svg-logo {
+    width: 200px;
+    height: 200px;
+    background-color: $color-secondary;
+    font-size: 30px;
+    margin: 0 auto;
+    color: greenyellow;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+}
+
